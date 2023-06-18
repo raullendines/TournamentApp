@@ -2,10 +2,6 @@
 *.apk
 *.ap_
 
-# Gradle build folders
-.gradle/
-/build/
-
 # Local configuration file (sdk path, etc)
 /local.properties
 
@@ -14,8 +10,6 @@
 
 # Android Studio files
 *.iml
-.gradle
-/build/
 
 # Keystore files
 *.jks
@@ -60,3 +54,6 @@ build/generated/data_binding_*/
 lint/intermediates/
 lint/generated/
 lint/outputs/
+
+# Gradle
+.gradle/
